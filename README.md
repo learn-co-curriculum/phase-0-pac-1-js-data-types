@@ -37,7 +37,7 @@ names called "data type" or, more simply, "type."
 
 ## Define a Data Type
 
-**_Everything is JavaScript is data_** except:
+**_Everything in JavaScript is data_** except:
 
 1.  **Operators**: `+`, `!`, `<=`, etc.
 2.  **Reserved Words** (`function`, `for`,`debugger`, etc.)
