@@ -53,7 +53,7 @@ data that we'd like to know the _type of_.
 
 > **CAREFUL** `typeof` is an operator, just like `+` or `!`. We get used to operators
 > being only one character, but JavaScript (and many other languages) have operators
-> with more than character. As such, **we don't need parentheses with `typeof`**. That
+> with ***more than one*** character. As such, **we don't need parentheses with `typeof`**. That
 > said, JavaScript also supports `()` after `typeof`, but it's commonly not done.
 
 ## Identify JavaScript's Seven Basic Data Types
