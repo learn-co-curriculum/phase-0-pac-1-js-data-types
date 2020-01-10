@@ -47,8 +47,7 @@ Throughout this lesson, we'll use the `typeof` operator to give us an idea of wh
 
 ### Numbers
 
-Some programming languages divide numbers up into integers, decimals, doubles,
-all- encompassing `number` type:
+Some programming languages divide numbers up into integers, decimals, doubles, floats, and so on. They do this so that they can have higher _precision_ in their calculations. In a banking application or airplane wing engineering application we want our interest rate or the curve of the wing to be **_as accurate as possible_**. For good reason: we want to make sure we get paid or have a safe plane! When JavaScript was created, this level of precision was not thought to be a thing that would be needed, so JavaScript only has a single, all-encompassing number type:
 
 ```js
 typeof 42;
@@ -103,7 +102,7 @@ typeof false;
 
 ### Objects
 
-JavaScript `Object`s are a collection of properties bounded by curly braces
+JavaScript objects are a collection of properties bound by curly braces (`{ }`), similar to a hash in Ruby or a dictionary in Python.
 
 The properties can point to values of any data type — even other objects:
 
@@ -122,9 +121,7 @@ typeof {}
 //=> "object"
 ```
 
-From JavaScript's perspective, what we call "arrays" are just special-cases of
-an `"object"` where the keys are all `number`s. So while JavaScript has
-`Array`s like `let dogs = ["Byron", "Cubby", "Boo Radley", "Luca"]`, JavaScript
+From JavaScript's perspective, what we call "arrays" are just special cases of an object where the keys are all numbers. So while JavaScript has arrays like `let dogs = ["Byron", "Cubby", "Boo Radley", "Luca"]`, JavaScript really thinks that `typeof dogs` is `"object"`.
 
 ```js
 let dogs = ['Byron', 'Cubby', 'Boo Radley', 'Luca'];
@@ -167,13 +164,11 @@ Symbols are a relatively new data type (introduced in ES2015) that's primarily u
 
 ### Primitive Types
 
-Six of the seven JavaScript data types — everything except `object` — are
+Six of the seven JavaScript data types — everything except object — are **primitive**. All this means is that they represent _single_ values, such as `7` or `"hello"` or `false`, instead of a collection of values.
 
 ## How Different JavaScript Data Types Interact
 
-Every programming language has its own rules governing the ways in which we can
-operate on data of a given type. For example, it's rather uncontroversial that
-`number`s can be subtracted from other `number`s...
+Every programming language has its own rules governing the ways in which we can operate on data of a given type. For example, it's rather uncontroversial that numbers can be subtracted from other numbers...
 
 ```js
 3 - 2;
@@ -265,7 +260,7 @@ Data types are representations of pieces of information and JavaScript defines s
 
 - [MDN — JavaScript data types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 - [Destroy All Software — Types](https://www.destroyallsoftware.com/compendium/types?share_key=baf6b67369843fa2) – A cross-language examination of type in various language
-- [Destroy All Software — Wat][wat] – A beloved **_and hilarious_** talk in which JavaScript's friendliness when mixing types is discussed at a fever pace – with awesome slides
+- [Destroy All Software — Wat][wat] – A beloved **_and hilarious_** talk in which JavaScript's friendliness when mixing types is discussed at a feverish pace – with awesome slides
 
 [wat]: https://www.destroyallsoftware.com/talks/wat
 [whole book]: https://plato.stanford.edu/entries/aristotle-categories/
