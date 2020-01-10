@@ -28,7 +28,7 @@ In JavaScript, _concrete_ instances of data can be categorized into _abstract_ n
 3.  Identify JavaScript's seven basic data types
 4.  Describe interactions between data of various types in JavaScript
 
-## Define a Data Type
+## What Is a Data Type?
 
 **_Everything in JavaScript is data_** except:
 
@@ -37,7 +37,7 @@ In JavaScript, _concrete_ instances of data can be categorized into _abstract_ n
 
 Every piece of data falls into one of JavaScript's seven data types: numbers, strings, booleans, symbols, objects, `null`, and `undefined`.
 
-## Demonstrate Basic Type Checking with the `typeof` Operator
+## Basic Type Checking Using the `typeof` Operator
 
 Throughout this lesson, we'll use the `typeof` operator to give us an idea of what data types we're dealing with. `typeof` accepts one argument, the piece of data that we'd like to know the _type of_.
 
@@ -169,7 +169,7 @@ Symbols are a relatively new data type (introduced in ES2015) that's primarily u
 
 Six of the seven JavaScript data types — everything except `object` — are
 
-## Describe Interactions Between Data of Various Types in JavaScript
+## How Different JavaScript Data Types Interact
 
 Every programming language has its own rules governing the ways in which we can
 operate on data of a given type. For example, it's rather uncontroversial that
