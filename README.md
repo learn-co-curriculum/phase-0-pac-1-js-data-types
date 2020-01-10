@@ -23,17 +23,17 @@ In JavaScript, _concrete_ instances of data can be categorized into _abstract_ n
 
 ## Objectives
 
-1.  Define a data type
-2.  Demonstrate basic type checking with the `typeof` operator
-3.  Identify JavaScript's seven basic data types
-4.  Describe interactions between data of various types in JavaScript
+1. Define a data type
+2. Demonstrate basic type checking with the `typeof` operator
+3. Identify JavaScript's seven basic data types
+4. Describe interactions between data of various types in JavaScript
 
 ## What Is a Data Type?
 
 **_Everything in JavaScript is data_** except:
 
-1.  **Operators**: `+`, `!`, `<=`, etc.
-2.  **Reserved Words** (`function`, `for`,`debugger`, etc.)
+1. **Operators**: `+`, `!`, `<=`, etc.
+2. **Reserved words**: `function`, `for`, `debugger`, etc.
 
 Every piece of data falls into one of JavaScript's seven data types: numbers, strings, booleans, symbols, objects, `null`, and `undefined`.
 
