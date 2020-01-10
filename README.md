@@ -73,7 +73,7 @@ Strings are how we represent text in JavaScript. A string consists of a matching
 typeof 'I am a string.';
 //=> "string"
 
-typeof 'Me too!';
+typeof "Me too!";
 //=> "string"
 
 typeof `Me three!`;
@@ -178,7 +178,7 @@ Every programming language has its own rules governing the ways in which we can 
 ...and that strings can be added to other strings:
 
 ```js
-'Hello' + ', ' + `world!`;
+'Hello' + ", " + `world!`;
 //=> "Hello, world!"
 ```
 
