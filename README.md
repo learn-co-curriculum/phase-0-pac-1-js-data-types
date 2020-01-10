@@ -63,7 +63,7 @@ typeof -Infinity;
 //=> "number"
 ```
 
-> **Think About This** As JavaScript has become a language for the back-end as well
+> **Think About This:** As JavaScript has become a language for the back-end as well as the front-end, it's imprecision around numbers keep it from entering many banking or engineering applications where precision is vital.
 
 ### Strings
 
@@ -89,8 +89,7 @@ typeof '';
 
 ### Booleans
 
-A boolean can only be one of two possible values: `true` or `false`. Booleans
-play a big role in if statements and looping in JavaScript.
+A boolean can only be one of two possible values: `true` or `false`. Booleans play a big role in `if` statements and looping in JavaScript.
 
 ```js
 typeof true;
@@ -193,7 +192,7 @@ Other languages, such as Ruby, will attempt to handle the interaction by convert
 #=> 3.14159
 ```
 
-Ruby throws errors when some stranger cases come up
+Ruby throws errors when some stranger cases come up:
 
 ```ruby
 > "THX-" + 1138
