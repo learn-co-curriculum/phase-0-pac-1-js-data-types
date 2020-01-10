@@ -139,8 +139,7 @@ typeof null;
 
 ### `undefined`
 
-The bane of many JS developers, `undefined` is a bit of a misnomer. Instead of
-'not defined,' it actually means something more like 'not yet assigned a value.'
+The bane of many JS developers, `undefined` is a bit of a misnomer. Instead of 'not defined,' it actually means something more like 'not yet assigned a value.'
 
 ```js
 typeof undefined;
