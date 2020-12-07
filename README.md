@@ -101,9 +101,7 @@ typeof false;
 
 ### Objects
 
-JavaScript objects are a collection of properties enclosed in curly braces (`{ }`), similar to a hash in Ruby or a dictionary in Python.
-
-The properties can point to values of any data type &mdash; even other objects:
+A JavaScript object, unlike the types we've looked at so far, is a _collection_ of data rather than a single value. An object consists of a list of properties, wrapped in curly braces `{}` and separated by commas. Each property in the list consists of a name &mdash; also known as a `key` &mdash; which points to a value: `"name": "JavaScript"`. The example below has four properties, with the names (or `key`s) "name", "createdBy", "firstReleased", and "isAwesome":
 
 ```js
 {
@@ -120,13 +118,21 @@ typeof {}
 //=> "object"
 ```
 
-From JavaScript's perspective, what we call "arrays" are just special cases of an object where the keys are all numbers. So while JavaScript has arrays like `let dogs = ["Byron", "Cubby", "Boo Radley", "Luca"]`, JavaScript really thinks that `typeof dogs` is `"object"`.
+A dictionary is a good metaphor here: an object is a collection of terms (the names or keys) and their definitions (the values). In fact, the programming language Python has a similar data type which is called a dictionary.
+
+Note that objects' properties can point to values of any data type. In the example above, the properties have values of four different types: a string, a number, a boolean, and another object!
+
+***Arrays***
+
+An array is just a list of values enclosed in square brackets: `["Byron", "Cubby", "Boo Radley", "Luca"]`. As with objects, the values can be of any data type. In fact, from JavaScript's perspective, arrays are just special cases of objects. We can see that if we check the data type of our array:
 
 ```js
 let dogs = ['Byron', 'Cubby', 'Boo Radley', 'Luca'];
 typeof dogs;
 //=> "object"
 ```
+
+This may seem strange at first, but will make more sense as we learn more about objects and arrays in future lessons.
 
 ### `null`
 
@@ -222,7 +228,7 @@ undefined ** null; // undefined to the power of null
 //=> "[object Object][object Object]" <-- That's a string!
 ```
 
-Why JavaScript returns a string when we ask it to add two empty objects is anyone's guess, but its heart is in the right place. The language always tries to bend over backwards for its human masters, returning actionable data instead of throwing errors. However, JavaScript's eagerness occasionally results in data type issues that surprise both novice and expert programmers alike.
+Why JavaScript returns a string when we ask it to add two empty objects is anyone's guess, but its heart is in the right place. The language always tries to bend over backwards for its human masters, returning actionable data instead of throwing errors. However, JavaScript's eagerness occasionally results in data type issues that surprise novice and expert programmers alike.
 
 Try to follow along with what's happening here:
 
@@ -246,7 +252,7 @@ Try to follow along with what's happening here:
 //=> "105"
 ```
 
-As long as we are only adding numbers to other numbers, JavaScript performs the expected addition. However, as soon as we throw a string in the mix, we stop adding and start concatenating everything together into a string. Let's take a look at the example below to see how this works:
+As long as we are only adding numbers to other numbers, JavaScript performs the expected addition. However, as soon as we throw a string in the mix, we stop adding and start concatenating everything together into a string. Let's take a look at an example to see how this works:
 
 ```js
 1 + 2 + 3 + '4' + 5;
