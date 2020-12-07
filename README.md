@@ -228,7 +228,7 @@ undefined ** null; // undefined to the power of null
 //=> "[object Object][object Object]" <-- That's a string!
 ```
 
-Why JavaScript returns a string when we ask it to add two empty objects is anyone's guess, but its heart is in the right place. The language always tries to bend over backwards for its human masters, returning actionable data instead of throwing errors. However, JavaScript's eagerness occasionally results in data type issues that surprise novice and expert programmers alike.
+Why JavaScript returns a string when we ask it to add two empty objects is anyone's guess, but its heart is in the right place. The language always tries to bend over backwards for us, returning actionable data instead of throwing errors. However, JavaScript's eagerness occasionally results in data type issues that surprise novice and expert programmers alike.
 
 Try to follow along with what's happening here:
 
