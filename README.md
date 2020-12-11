@@ -162,6 +162,13 @@ typeof unassignedVariable;
 
 Any variable declared but not defined will be `undefined` until a value is assigned.
 
+***Top Tip***: When writing JavaScript code, it's good practice to ***never***
+set a variable equal to `undefined`. Variables will be `undefined` until we
+explicitly assign a value, so encountering an `undefined` variable is a strong
+signal that the variable was declared but not assigned prior to the reference.
+That's valuable information that we can use while debugging, and it comes at no
+additional cost to us.
+
 ### Symbols
 
 Symbols are a relatively new data type (introduced in ES2015) that's primarily used as an alternative way to add properties to objects. Don't worry about symbols for now.
