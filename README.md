@@ -1,6 +1,13 @@
 # JavaScript Data Types
 
-## Problem Statement
+## Learning Goals
+
+1. Define a data type
+2. Demonstrate basic type checking with the `typeof` operator
+3. Identify JavaScript's seven basic data types
+4. Describe interactions between data of various types in JavaScript
+
+## Introduction
 
 Did you ever hear this song from educational TV?
 
@@ -20,13 +27,6 @@ Doing this is one of the most profound problems in philosophy and human developm
 Who knew JavaScript would lead us to ancient Greece as well as "Sesame Street?"
 
 In JavaScript, _concrete_ instances of data can be categorized into _abstract_ names called "data types" or, more simply, "types."
-
-## Objectives
-
-1. Define a data type
-2. Demonstrate basic type checking with the `typeof` operator
-3. Identify JavaScript's seven basic data types
-4. Describe interactions between data of various types in JavaScript
 
 ## What Is a Data Type?
 
@@ -162,12 +162,7 @@ typeof unassignedVariable;
 
 Any variable declared but not defined will be `undefined` until a value is assigned.
 
-***Top Tip***: When writing JavaScript code, it's good practice to ***never***
-set a variable equal to `undefined`. Variables will be `undefined` until we
-explicitly assign a value, so encountering an `undefined` variable is a strong
-signal that the variable was declared but not assigned prior to the reference.
-That's valuable information that we can use while debugging, and it comes at no
-additional cost to us.
+> ***Top Tip***: When writing JavaScript code, it's good practice to ***never*** set a variable equal to `undefined`. Variables will be `undefined` until we explicitly assign a value, so encountering an `undefined` variable is a strong signal that the variable was declared but not assigned prior to the reference. That's valuable information that we can use while debugging, and it comes at no additional cost to us.
 
 ### Symbols
 
