@@ -257,11 +257,11 @@ Try to follow along with what's happening here:
 As long as we are only adding numbers to other numbers, JavaScript performs the expected addition. However, as soon as we throw a string in the mix, we stop adding and start concatenating everything together into a string. Let's take a look at an example to see how this works:
 
 ```js
-1 + 2 + 3 + '4' + 5;
-//=> "645"
+1 + 2 + '3' + 4 + 5;
+//=> "3345"
 ```
 
-First, we add the numbers `1`, `2`, and `3` together to get `6` (a number). We then ask JavaScript to add `6` (a number) to `"4"` (a string). JavaScript can't perform addition with a string, so it decides to concatenate the two operands instead, resulting in `"64"` (a string). The remaining operation, `"64" + 5`, is also between a string and a number, and JavaScript once again concatenates, giving us the final result of `"645"` (a string).
+First, we add the numbers `1`and `2` together to get `3` (a number). We then ask JavaScript to add `3` (a number) to `"3"` (a string). JavaScript can't perform addition with a string, so it decides to concatenate the two operands instead, resulting in `"33"` (a string). The next operation, `"33" + 4`, is also between a string and a number, and JavaScript once again concatenates, giving us the result of `"334"` (a string). In the final operation, we're adding `"334"` with `5` (a number). Again, JavaScript concatenates, giving the final result of `"3345"`.
 
 You'll encounter a lot of these weird data type behaviors throughout your JavaScript programming, but fear not: they'll trip you up less and less often as you gain experience.
 
