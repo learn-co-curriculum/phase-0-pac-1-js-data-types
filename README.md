@@ -101,7 +101,7 @@ typeof false;
 
 ### Objects
 
-A JavaScript object, unlike the types we've looked at so far, is a _collection_ of data rather than a single value. An object consists of a list of properties, wrapped in curly braces `{}` and separated by commas. Each property in the list consists of a name &mdash; also known as a `key` &mdash; which points to a value: `"name": "JavaScript"`. The example below has four properties, with the names (or `key`s) "name", "createdBy", "firstReleased", and "isAwesome":
+A JavaScript object, unlike the types we've looked at so far, is a _collection_ of data rather than a single value. An object consists of a list of properties, wrapped in curly braces `{}` and separated by commas. Each property in the list consists of a name — also known as a `key` — which points to a value: `"name": "JavaScript"`. The example below has four properties, with the names (or `key`s) "name", "createdBy", "firstReleased", and "isAwesome":
 
 ```js
 {
@@ -170,7 +170,7 @@ Symbols are a relatively new data type (introduced in ES2015) that's primarily u
 
 ### Primitive Types
 
-Six of the seven JavaScript data types &mdash; everything except object &mdash; are **primitive**. All this means is that they represent _single_ values, such as `7` or `"hello"` or `false`, instead of a collection of values.
+Six of the seven JavaScript data types — everything except object — are **primitive**. All this means is that they represent _single_ values, such as `7` or `"hello"` or `false`, instead of a collection of values.
 
 ## How Different JavaScript Data Types Interact
 
