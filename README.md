@@ -96,7 +96,7 @@ more characters in between:
 typeof "I am a string.";
 //=> "string"
 
-typeof "Me too!";
+typeof 'Me too!';
 //=> "string"
 
 typeof `Me three!`;
