@@ -290,9 +290,7 @@ null ** 2; // null to the power of 2
 undefined ** null; // undefined to the power of null
 //=> 1
 
-{
-}
-+{}; // empty object plus empty object
+{}+{}; // empty object plus empty object
 //=> "[object Object][object Object]" <-- That's a string!
 ```
 
@@ -356,12 +354,8 @@ types: numbers, strings, booleans, symbols, objects, `null`, and `undefined`.
 ## Resources
 
 - [MDN — JavaScript data types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
--
-  [Destroy All Software — Types](https://www.destroyallsoftware.com/compendium/types?share_key=baf6b67369843fa2)
-  – A cross-language examination of type in various languages
-- [Destroy All Software — Wat][wat] – A beloved **_and hilarious_** talk in
-  which JavaScript's friendliness when mixing types is discussed at a feverish
-  pace – with awesome slides
+- [Destroy All Software — Types](https://www.destroyallsoftware.com/compendium/types?share_key=baf6b67369843fa2) – A cross-language examination of type in various languages
+- [Destroy All Software — Wat][wat] – A beloved **_and hilarious_** talk in which JavaScript's friendliness when mixing types is discussed at a feverish pace – with awesome slides
 
 [wat]: https://www.destroyallsoftware.com/talks/wat
 [whole book]: https://plato.stanford.edu/entries/aristotle-categories/
