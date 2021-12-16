@@ -164,16 +164,20 @@ special cases of objects. We can see that if we check the data type of our
 array:
 
 ```js
-const dogs = ["Byron", "Cubby", "Boo Radley", "Luca"];
+const dogs = ["Byron", "Cubby", "Boo Radley", "Luca", "Spinach"];
 typeof dogs;
 //=> "object"
 ```
 
-This may seem strange at first, but will make more sense as we learn more about objects and arrays in future lessons.
+This may seem strange at first, but will make more sense as we learn more about
+objects and arrays in future lessons.
 
 ### `null`
 
-The `null` data type represents an intentionally absent object. For example, if a piece of code returns an object when it successfully executes, we could have it return `null` in the event of an error. Confusingly, the `typeof` operator returns `"object"` when called with `null`:
+The `null` data type represents an intentionally absent object. For example, if
+a piece of code returns an object when it successfully executes, we could have
+it return `null` in the event of an error. Confusingly, the `typeof` operator
+returns `"object"` when called with `null`:
 
 ```js
 typeof null;
@@ -182,7 +186,8 @@ typeof null;
 
 ### `undefined`
 
-The bane of many JS developers, `undefined` is a bit of a misnomer. Instead of 'not defined,' it actually means something more like 'not yet assigned a value.'
+The bane of many JS developers, `undefined` is a bit of a misnomer. Instead of
+'not defined,' it actually means something more like 'not yet assigned a value.'
 
 ```js
 typeof undefined;
@@ -285,9 +290,7 @@ null ** 2; // null to the power of 2
 undefined ** null; // undefined to the power of null
 //=> 1
 
-{
-}
-+{}; // empty object plus empty object
+{}+{}; // empty object plus empty object
 //=> "[object Object][object Object]" <-- That's a string!
 ```
 
@@ -351,8 +354,8 @@ types: numbers, strings, booleans, symbols, objects, `null`, and `undefined`.
 ## Resources
 
 - [MDN — JavaScript data types and data structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-- [Destroy All Software — Types](https://www.destroyallsoftware.com/compendium/types?share_key=baf6b67369843fa2) – A cross-language examination of type in various languages
-- [Destroy All Software — Wat][wat] – A beloved **_and hilarious_** talk in which JavaScript's friendliness when mixing types is discussed at a feverish pace – with awesome slides
+- [Destroy All Software — Types](https://www.destroyallsoftware.com/compendium/types?share_key=baf6b67369843fa2) – A cross-language examination of type in various languages
+- [Destroy All Software — Wat][wat] – A beloved **_and hilarious_** talk in which JavaScript's friendliness when mixing types is discussed at a feverish pace – with awesome slides
 
 [wat]: https://www.destroyallsoftware.com/talks/wat
 [whole book]: https://plato.stanford.edu/entries/aristotle-categories/
