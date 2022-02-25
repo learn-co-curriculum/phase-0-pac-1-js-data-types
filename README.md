@@ -2,10 +2,10 @@
 
 ## Learning Goals
 
-1. Define a data type
-2. Demonstrate basic type checking with the `typeof` operator
-3. Identify JavaScript's seven basic data types
-4. Describe interactions between data of various types in JavaScript
+- Define a data type
+- Demonstrate basic type checking with the `typeof` operator
+- Identify JavaScript's seven basic data types
+- Describe interactions between data of various types in JavaScript
 
 ## Introduction
 
