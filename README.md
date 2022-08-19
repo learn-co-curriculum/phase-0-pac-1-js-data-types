@@ -157,11 +157,16 @@ number, a boolean, and another object!
 
 ### Arrays
 
-An array is just a list of values enclosed in square brackets:
-`["Byron", "Cubby", "Boo Radley", "Luca"]`. As with objects, the values can be
-of any data type. In fact, from JavaScript's perspective, arrays are just
-special cases of objects. We can see that if we check the data type of our
-array:
+Technically, Arrays are not a data type in JavaScript — they are instead a
+special case of the object data type. However, because they are used quite
+frequently in JavaScript code, we are including them here.
+
+An array is just a list of values enclosed in square brackets: `["Byron",
+"Cubby", "Boo Radley", "Luca"]`. As with objects, the values can be of any data
+type.
+
+If we check the data type of our array, we can confirm that arrays are really
+objects in JavaScript:
 
 ```js
 const dogs = ["Byron", "Cubby", "Boo Radley", "Luca", "Spinach"];
