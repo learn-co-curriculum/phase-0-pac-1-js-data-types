@@ -1,6 +1,6 @@
 # JavaScript Data Types
 
-## Learning Goals.
+## Learning Goals
 
 - Define a data type
 - Demonstrate basic type checking with the `typeof` operator
