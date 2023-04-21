@@ -143,7 +143,7 @@ const js = {
   isAwesome: true,
 };
 
-typeof {};
+typeof js;
 //=> "object"
 ```
 
